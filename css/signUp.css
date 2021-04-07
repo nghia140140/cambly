@@ -1,0 +1,477 @@
+header{
+	background:#fff;
+	width: 100%;
+	height:60px;
+}
+.logoAndButton{
+	width:auto;
+}
+#anhlogo{
+	float:left;
+	padding:9px 15px;
+}
+#logo{
+	height: 42;
+	width: 147;
+}
+#menu .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#menu .navbar-toggle .icon-bar{
+	background-color: #333333;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+#menu{
+	width: auto;
+	padding:0 20px;
+}
+ul#menu-left{
+	margin:0px;
+	height: 100%;
+	padding:0px;
+	display:flex;
+	align-items: center;
+}
+ul#menu-left li{
+	float: left;
+	padding:20px 12px;
+	
+}
+ul#menu-left li a{
+	color:#333333;
+	text-decoration: none;
+}
+ul li{
+list-style:none;
+}
+#menu-left{
+float: left;
+}
+a:link{
+	text-decoration: none;
+}
+#menu-right{
+	float:right;
+}
+#menu-right ul{
+	margin:0px;
+	height: 100%;
+	padding:0px;
+	display:flex;
+	align-items: center;
+}
+#menu-right ul li{
+	float: right;
+	padding:20px 12px;
+	
+}
+#dangnhap{
+	color:#333333;
+	padding: 12px 3px;
+	text-decoration: none;
+}
+#dangky{
+	background:#228891;
+	border:none;
+	border-radius:5px;
+	padding: 5px 12px;
+	color:#fff;
+	text-decoration: none;
+}
+
+#languege{
+	border:none;
+}
+#languege:active{
+	border:none;
+}
+                /* MAIN */
+.content{
+    
+    /* width: auto;
+    height: auto; */
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    /* justify-content: center; */
+
+}
+.main{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 30px auto; */
+}
+.left{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    height: 90vh;
+    min-height: 658px;
+    margin: 0px;
+    padding: 0px 0px;
+}
+.image{
+    float: right;
+    object-fit: cover;
+    object-position: 100% 50%;
+    height: 100%;
+    width: 100%;
+    /* max-width: 400px; */
+}
+.image2{
+    display: none;
+    margin: auto;
+    width: 150px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    height: 90vh;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 50px;
+}
+.login{
+    font-family: Helvetica Neue;
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.text{
+    width: 100%;
+}
+.welcome{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.17;
+    font-size: 2.142857142857143rem;
+    font-family: Helvetica Neue;
+    text-align: left;
+}
+.loginWith{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-size: 1.4285714285714286rem;
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.profileMain{width: auto;
+text-align: left;}
+.profile{
+    width: max-content;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.profileItem{
+    margin:6px;
+    min-width: 116px;
+}
+.profile .profileItem:first-child{
+    min-width: 135px;
+}
+.button{
+    
+    padding:0px 16px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 5px 16px;
+    background: inherit;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.profileButton{
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.icon{
+    /* margin-left: -12px; */
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+}
+.facebook{
+    padding-top: 3px;
+    font-size: 12px;
+    letter-spacing: 0.3;
+    display: inline-block;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.hoac{
+    display: flex;
+    margin-bottom: 24px;
+    text-align: center;
+    align-items: center;
+}
+.kengang{
+    
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 150px;
+}
+.or{
+    display:flex;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.email{
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    z-index: 1;
+    margin-bottom: 8px;
+}
+.email-input{
+    
+    margin-top: 16px;
+    margin-bottom: 8px;
+    padding: 1px 0px;
+    border:solid 1px gray;
+	height: 56px;
+	width: 100%;
+	color:#fff;
+	background-color: inherit;
+	border-radius: 5px;
+    text-align: left;
+}
+.email .email-input:last-child{
+    /* margin-bottom: 24px; */
+}
+.label-item{
+    transform: translate(10px, -10px) scale(0.75);
+	color: #000;
+    font-size: 14px;
+	font-weight: 500;
+	z-index: 3;
+    margin-bottom: 0px;
+    display: block;
+	position: absolute;
+}
+.input{
+	position: relative;
+    padding: 0px 1px;
+    border-radius: 4px;
+	width: 100%;
+	height: 100%;
+    display: inline-flex;
+	
+    align-items: center;
+    font-size: 16px;
+}
+.input::after{
+    position: absolute;
+    content: "";
+    width:  40px;
+    height: 20px;
+    top: -10px;
+    left: 10px;
+    z-index: 2;
+    background-color: #fff;
+}
+.email-input:last-child .input::after{
+    position: absolute;
+    content: "";
+    width:  60px;
+    height: 20px;
+    top: -10px;
+    left: 10px;
+    z-index: 2;
+    background-color: #fff;
+}
+.input input{
+	padding-left: 10px;
+	color: #000;
+	border-style: none;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+}
+.showPass{
+    padding-left: 5px;
+    border: none;
+    background-color: inherit;
+}
+.showPass .icon{
+    margin-right: 6px;
+}
+.loginButton{
+    width: 100%;
+    text-align: left;
+}
+.btnLogin{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    padding: 9px 16px;
+    background-color: #228891;
+}
+.chinhsach{
+    text-align: left;
+    margin-bottom: 16px;
+}
+footer{
+    height: 37px;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6px;
+}
+footer h6{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+#copyright{
+    padding: 10px 10px;
+    font-size: 75%;
+}
+/* REPONSIVE */
+
+@media screen and (max-width: 768px){
+    .content{
+        /* display: block; */
+    }
+    
+	header{
+		height:auto;
+	}
+	.logoAndButton{
+		width:100%;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	#navbar{
+		display:none;
+	}
+	#menu-left{
+		float: none;
+		clear: both;
+	}
+	ul#menu-left {
+		display:block;
+		height:auto;
+	}
+	ul#menu-left li{
+		clear: both;
+		padding: 6px 6px;
+	}
+	.navbar-nav {
+		margin: 10px;
+		padding-left: 0;
+	}
+	#menu-right {
+		float: none;
+		clear: both;
+	}
+	#menu-right ul {
+		height:auto;
+		display:block;
+	}
+	#menu-right ul li{
+		clear: both;
+		float: none;
+		padding: 6px 6px;
+	}
+    .main{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .welcome{text-align: center;
+        margin-top: 10px;    
+    }
+    .loginWith{text-align: center;}
+    .profile{text-align: center;}
+    .email{text-align: center;}
+    .btnLogin{text-align: center;}
+    .profileMain{
+        text-align: center;
+        transform: translateX(-10%);
+    }
+    .login{
+        width: 300px;
+    }
+    
+    .loginButton{
+        text-align: center;
+    }
+    .welcome{
+        margin-top: 40px;
+    }
+    .text1{
+        
+    font-size: 1.4285714285714286rem;
+    font-weight: 400;
+    line-height: 1.5;
+    }
+    .chinhsach{
+        
+    font-size: 1.4285714285714286rem;
+    font-weight: 400;
+    line-height: 1.5;
+    }
+           
+
+}

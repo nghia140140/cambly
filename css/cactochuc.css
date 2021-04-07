@@ -1,0 +1,253 @@
+		/* HERADER */
+body{
+	margin:0px;
+}
+
+.root{
+	height: 100%;
+}
+.header{
+	background-color: rgba(99, 99, 99, 0.9);
+	/* background-color:rgba(112, 112, 112); */
+	width: 100%;
+	height:70px;
+}
+
+.menu{
+	width: auto;
+	padding:0 20px;
+}
+#anhlogo{
+	float:left;
+	padding:9px 15px;
+}
+#logo{
+	height: 52;
+	width: 182;
+}
+
+.menu .navbar-toggle .icon-bar{
+	background-color: #333333;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+ul li{
+list-style:none;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+#menu-right{
+	float:right;
+}
+#menu-right ul{
+	margin:0px;
+	height: 100%;
+	padding:0px;
+	padding-right:20px;
+	display:flex;
+	align-items: center;
+	color: #fff;
+	font-weight: bold;
+}
+#menu-right ul li{
+	float: right;
+	padding:20px 12px;
+	
+}
+#languege{
+	border:none;
+	background-color:rgba(99, 99, 99, 0.9);
+}
+#dangnhap{
+	color:#fff;
+	padding: 12px 3px;
+	text-decoration: none;
+}
+.nen{
+	background-image: url('../image/world_dots.png');
+	background-attachment: fixed;
+}
+.p1{
+	line-height: 1.15;
+	font-size: 2.5em; 
+	width: 70%; 
+	font-weight: 300; 
+	letter-spacing: -1px; 
+	color: rgb(238, 238, 238);
+}
+#span1{
+	color: rgb(237, 237, 237); 
+	font-size: 1.2em; 
+	font-weight: bold; 
+	letter-spacing: 0.3px; 
+	line-height: 99%;
+}
+.form{
+	background-color: rgb(30, 122, 130); 
+	height: fit-content; 
+	border-radius: 5px; 
+	width: 85%; 
+	margin: 0px auto; 
+	position: relative; 
+	text-align: center; 
+	padding: 40px 60px;	
+}
+.top{
+	font-size: 2em; 
+	z-index: 1;
+	line-height: 1.15; 
+	color: rgb(241, 251, 252); 
+	font-weight: 300; 
+	letter-spacing: -0.5px
+}
+.form-input{
+	display: flex; 
+	flex-flow: row wrap; 
+	justify-content: center; 
+	margin: 20px 0px;
+}
+.item{
+	height: 56px;
+	width: 35%;
+	margin: 10px 20px;
+	color:#fff;
+	background-color: rgb(238, 238, 238);
+	border-radius: 5px;
+	text-align: left;
+}
+.label-item{
+    transform: translate(12px, 17px) scale(1);
+	color: #000;
+    font-size: 14px;
+	font-weight: 500;
+	z-index: 1;
+    margin-bottom: 0px;
+    display: block;
+	
+	position: absolute;
+}
+.item1{
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+    display: inline-flex;
+	
+    align-items: center;
+    font-size: 16px;
+	font-weight: 500;
+}
+.item1 input{
+	padding-left: 10px;
+	color: #000;
+	border-style: none;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(238, 238, 238);
+}
+
+footer{
+	width:100%;
+}
+.end{
+	margin-right:0px;
+	width:100%;
+	height:80px;
+    background: #EEEEEE;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-right: 0;
+    margin-left: auto;
+	padding: 0 30px;
+	/* position:relative; */
+	text-align:center;
+	align-items:center;
+    display: flex;
+    justify-content: space-between;
+}
+.endLeft{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -10px;
+	text-transform:uppercase;
+	font-size:10px;
+}
+.endLeft a{
+    color: rgba(0, 0, 0, 0.7);
+}
+.first a{
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 10px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0px 10px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.first a:first-child{
+	margin-left:0px;
+}
+.endLeft a:hover{
+	text-decoration:none;
+}
+.endLeft img{
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 10px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0px 10px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+.endbottom{
+	display: flex;
+}
+#submit{
+	height: 56px;
+	background-color: rgb(246, 186, 1); 
+	width: 35%; 
+	margin: 10px 20px
+}
+.abc{
+    background-image: linear-gradient(rgba(99, 99, 99, 0.9) 600px, rgb(237, 237, 237) 600px);
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px){
+	.p1{font-size: 2.1em;}
+	.form {width: 100%;}
+	#navbar{display: none;}
+	.item {width: 100%;}
+	.top {font-size: 1.3em;}
+	#submit{width: 100%;}
+	#h4 h4{
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.2;
+	}
+	.end{display: block;
+	padding-top: 10px;}
+	.endLeft{justify-content: flex-start;}
+	.endbottom{
+		/* display: block; */
+		margin-top: 20px;
+	}
+	.endbottom .endLeft:last-child{padding-left: 20px;}
+}
